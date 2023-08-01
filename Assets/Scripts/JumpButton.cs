@@ -12,7 +12,7 @@ public class JumpButton : MonoBehaviour
         {
             movementManager.isJumping = true;
             
-            movementManager.rb.velocity += Vector2.up * 15f;
+            movementManager.rb.velocity += Vector2.up * 18f;
         }
     }
 }
