@@ -2,9 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ground : MonoBehaviour
+public class Obstacle : MonoBehaviour
 {
-    public float moveSpeed = 5f; // Ground의 이동 속도
+    [SerializeField]
+    private float moveSpeed = 5f; // Ground의 이동 속도
+
+    [SerializeField]
+    private float hp = 1f;
 
     void Update()
     {
